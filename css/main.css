@@ -24,8 +24,15 @@ p {
 a {
   display: block;
   border: 3px solid #333;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+
 }
 
 a:hover {
   background-color: #666;
+  border: 3px solid #666;
+  color: #eee9de;
 }
