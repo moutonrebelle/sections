@@ -3,6 +3,7 @@ html {
   font-family: lato, sans-serif;
   background-color: #eee9de;
   line-height: 1.5;
+  width: 25em
 }
 
 *, *::before, *::after {
@@ -26,8 +27,10 @@ a {
   border: 3px solid #333;
   border-radius: 5px;
   text-align: center;
+  padding: .4em .75em .5em;
   text-decoration: none;
   color: #333;
+  margins: 1.5rem
 
 }
 
