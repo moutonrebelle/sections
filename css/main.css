@@ -8,3 +8,24 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+img {
+  display: block;
+}
+
+h1 {
+  display: block;
+}
+
+p {
+  display: block;
+}
+
+a {
+  display: block;
+  border: 3px solid #333;
+}
+
+a:hover {
+  background-color: #666;
+}
