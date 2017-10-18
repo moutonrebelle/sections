@@ -3,7 +3,7 @@ html {
   font-family: Lato, sans-serif;
   background-color: #eee9de;
   line-height: 1.5;
-  width: 25em
+  width: 100%
 }
 
 *, *::before, *::after {
@@ -12,12 +12,12 @@ html {
 
 body {
   vertical-align: middle;
-  margin: 1.5rem;
+  margin: 0em;
 }
 
 img {
-  width: 100%;
-  max-width: 9em;
+  display: block;
+  max-width: 25em;
 }
 
 section {
@@ -30,7 +30,7 @@ div {
   text-align: left;
 }
 
-a {
+.btn {
   display: block;
   border: 3px solid #333;
   border-radius: 5px;
@@ -41,7 +41,7 @@ a {
   max-width: 9em;
 }
 
-a:hover {
+.btn a:hover {
   background-color: #666;
   border: 3px solid #666;
   color: #eee9de;
