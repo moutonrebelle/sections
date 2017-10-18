@@ -19,7 +19,8 @@ h1 {
 }
 
 section {
-  display: block;
+  display: inline-block;
+  text-align: left;
 }
 
 a {
