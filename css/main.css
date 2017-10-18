@@ -10,15 +10,22 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  display: block;
+body {
+  vertical-align: middle;
+  margin: 1.5rem;
 }
 
-h1 {
-  display: block;
+img {
+  width: 100%;
+  max-width: 9em;
 }
 
 section {
+  display: inline-block;
+}
+
+div {
+  float: left;
   display: inline-block;
   text-align: left;
 }
@@ -31,7 +38,7 @@ a {
   padding: .4em .75em .5em;
   text-decoration: none;
   color: #333;
-  margin: 1.5rem
+  max-width: 9em;
 }
 
 a:hover {
