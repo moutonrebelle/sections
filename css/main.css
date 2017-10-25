@@ -3,7 +3,7 @@ html {
   font-family: Lato, sans-serif;
   background-color: #eee9de;
   line-height: 1.5;
-  width: 100%
+  width: 100%;
 }
 
 *, *::before, *::after {
@@ -12,16 +12,18 @@ html {
 
 body {
   vertical-align: middle;
-  margin: 0em;
+  margin: 1.5em;
 }
 
 img {
   display: block;
   max-width: 25em;
+  width: 100%;
 }
 
 section {
   display: inline-block;
+  width: 100%;
 }
 
 div {
