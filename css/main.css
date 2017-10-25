@@ -23,6 +23,7 @@ img {
 .image {
   display: inline-block;
   max-width: 25em;
+  padding-right: 2em;
 }
 
 section {
@@ -34,6 +35,7 @@ section {
   display: inline-block;
   text-align: left;
   max-width: 25em;
+  padding: 1em;
 }
 
 .btn {
