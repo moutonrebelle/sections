@@ -34,7 +34,7 @@ section {
   display: inline-block;
   text-align: left;
   max-width: 25em;
-  padding: .4em .75em .5em;
+  padding: 1em 2em;
 }
 
 .btn {
@@ -45,7 +45,7 @@ section {
   padding: .4em .75em .5em;
   text-decoration: none;
   color: #333;
-  max-width: 9em;
+  max-width: 8em;
 }
 
 .btn a:hover {
