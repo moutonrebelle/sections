@@ -22,7 +22,7 @@ img {
 
 .image {
   display: inline-block;
-  max-width: 25em;
+  max-width: 25em;;
 }
 
 section {
@@ -41,7 +41,7 @@ section {
   display: block;
   border: 3px solid #333;
   border-radius: 5px;
-  text-align: center
+  text-align: center;
   padding: .4em .75em .5em;
   text-decoration: none;
   color: #333;
