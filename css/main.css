@@ -17,8 +17,12 @@ body {
 
 img {
   display: block;
-  max-width: 25em;
   width: 100%;
+}
+
+.image {
+  display: inline-block;
+  max-width: 25em;
 }
 
 section {
@@ -26,10 +30,10 @@ section {
   width: 100%;
 }
 
-div {
-  float: left;
+.text {
   display: inline-block;
   text-align: left;
+  max-width: 25em;
 }
 
 .btn {
