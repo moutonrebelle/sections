@@ -3,7 +3,6 @@ html {
   font-family: Lato, sans-serif;
   background-color: #eee9de;
   line-height: 1.5;
-  width: 100%;
 }
 
 *, *::before, *::after {
@@ -24,10 +23,10 @@ img {
   display: inline-block;
   max-width: 25em;
   padding: 1em;
+  vertical-align: middle;
 }
 
 section {
-  width: 100%;
   text-align: center;
   padding: 2em 0;
 }
@@ -37,6 +36,7 @@ section {
   text-align: left;
   max-width: 25em;
   padding: 1em;
+  vertical-align: middle;
 }
 
 .btn {
